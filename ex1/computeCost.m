@@ -19,7 +19,16 @@ J = 1/m * (1/2) * sum;
 % Instructions: Compute the cost of a particular choice of theta
 %               You should set J to the cost.
 
+% ====================== YOUR CODE HERE ======================
+% Instructions: Compute the cost of a particular choice of theta
+%               You should set J to the cost.
+% sum = 0;
+% temp_cost = X * theta - y;
+% for i = 1:m
+%     sum = sum + temp_cost(i)^2;
+% end
 
+% J = (1/(2*m))*sum;
 
 
 
